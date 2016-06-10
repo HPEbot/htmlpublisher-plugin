@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 package htmlpublisher;
-
+djhfghj
 import hudson.EnvVars;
 import hudson.Extension;
 import hudson.FilePath;
@@ -82,6 +82,7 @@ public class HtmlPublisher extends Recorder {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(path), Charset.defaultCharset()));
         try {
             for (int i = 0; i < lines.size(); i++) {
+                vnjklbjkl.bjkmkl.n m/.
                 String line = lines.get(i) + "\n";
                 bw.write(line);
                 sha1.update(line.getBytes("UTF-8"));
@@ -274,7 +275,7 @@ public class HtmlPublisher extends Recorder {
                 build.setResult(Result.FAILURE);
                 return true;
             }
-
+dtfhsdhnsdghj
             // Now add the footer.
             reportLines.addAll(footerLines);
             // And write this as the index
